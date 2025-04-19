@@ -13,7 +13,7 @@ def main():
         print("4. View basket")
         print("5. Generate bill")
         print("6. Search bill")
-        print("7. Show tax file details")
+        print("7. Generate Tax file")
         print("8. Exit")
         print("========================================")
 
@@ -156,7 +156,7 @@ def main():
                 print("Invalid Bill number. Please enter a valid Bill number (e.g., BILL001).")
 
         elif choice == "7":
-            pos.show_tax_file_info()
+            pos.generate_final_tax_file()
 
 
         elif choice == "8":

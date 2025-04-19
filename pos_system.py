@@ -1,5 +1,7 @@
 import json
 import os
+import shutil
+
 
 class Item:
     #constructor for each item
@@ -12,7 +14,7 @@ class Item:
 
     # to get the total in a line
     def line_total(self):
-        return round(self.sale_price * self.quantity,2)
+        return round((self.sale_price - self.discount) * self.quantity,2)
 
     #to make each product into a dictionary , key value format
     def to_dict(self):
@@ -97,7 +99,6 @@ class POS:
                 f"   •  Discount: Rs.{item.discount}\n"
                 f"   •  Quantity: {item.quantity}\n"
                 f"   •  Line Total: Rs.{item.line_total()}\n"
-                f"   •  Checksum: {item.calculate_checksum()}\n"
             )
         print("\n================================")
 
@@ -142,8 +143,8 @@ class POS:
 
 
     def save_bill(self, bill_number):
-        #point to the tax text file
-        tax_file_path = "tax_transactions_test.json"
+        #point to the tax data file
+        tax_file_path = "tax_data.json"
 
         new_tax_entries = [item.to_dict() for item in self.bills[bill_number]["items"]]
 
@@ -187,8 +188,6 @@ class POS:
                 print(f"   Discount: {item.discount}")
                 print(f"   Sale price: {item.sale_price}")
                 print(f"   Quantity: {item.quantity}")
-                print(f"   Checksum: {item.calculate_checksum()}")
-
                 print(f"   Line total: {item.line_total()}")
                 line_number += 1
 
@@ -199,20 +198,30 @@ class POS:
         else:
             print(f"Bill number: '{bill_number}' not found.\n")
 
-    def show_tax_file_info(self):
-        tax_file_path = "tax_transactions_test.json"
+    def generate_final_tax_file(self):
+        tax_file_path = "tax_data.json"
+        final_file_name = "tax_transactions.json"
 
-        print("\nTax File Information")
-        print("-"*40)
-
-        if os.path.exists(tax_file_path):
-            print("Tax file is available.")
-            print(f"File name: {tax_file_path}")
-        else:
-            print("Tax file not found.")
+        # Check if the source tax file exists
+        if not os.path.exists(tax_file_path):
             print("Please generate at least one bill to create the tax file.")
+            return
 
-
+        #check if the tax_data file is valid and not corrupted.
+        try:
+            with open(tax_file_path, 'r') as f:
+                data = json.load(f)
+        except json.JSONDecodeError:
+            print("Tax data has been corrupted. Therefore cannot generate final tax file.")
+            return
+        except Exception:
+            print(f"Unexpected error occurred. Please try again.")
+            return
+        try:
+            shutil.copyfile(tax_file_path, final_file_name)
+            print(f"Final tax file saved as: {final_file_name}")
+        except Exception:
+            print(f"Unexpected error: Failed to create final tax file")
 
 
 

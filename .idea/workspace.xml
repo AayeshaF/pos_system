@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="13748c3a-8ebb-4c54-8457-b98e99c694d9" name="Changes" comment="Created the final tax file generation">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tax_data.json" beforeDir="false" afterPath="$PROJECT_DIR$/tax_data.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tax_transactions.json" beforeDir="false" afterPath="$PROJECT_DIR$/tax_transactions.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;AayeshaF&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/AayeshaF/pos_system.git&quot;,
+    &quot;accountId&quot;: &quot;a5d1ed7d-677f-4f52-be76-ba5a2659b213&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2vXjeeoNXz2PW3wIFYqouaLgYV6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.item.executor&quot;: &quot;Run&quot;,
+    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
+    &quot;Python.pos_system.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="13748c3a-8ebb-4c54-8457-b98e99c694d9" name="Changes" comment="" />
+      <created>1744298411039</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1744298411039</updated>
+      <workItem from="1744298423266" duration="28182000" />
+      <workItem from="1744504039338" duration="51998000" />
+      <workItem from="1744636036882" duration="601000" />
+      <workItem from="1744638013397" duration="2890000" />
+      <workItem from="1744779004336" duration="3922000" />
+      <workItem from="1744786251760" duration="18000" />
+      <workItem from="1744798040952" duration="45000" />
+      <workItem from="1744868282586" duration="16000" />
+      <workItem from="1744910910044" duration="166000" />
+      <workItem from="1744944599843" duration="9455000" />
+      <workItem from="1744960527641" duration="1609000" />
+      <workItem from="1744962440725" duration="28000" />
+      <workItem from="1744964877628" duration="376000" />
+      <workItem from="1744965303186" duration="36000" />
+      <workItem from="1744968208906" duration="129000" />
+      <workItem from="1745035865127" duration="242000" />
+      <workItem from="1745661277341" duration="180000" />
+      <workItem from="1745680459002" duration="145000" />
+      <workItem from="1745685103876" duration="13399000" />
+      <workItem from="1745717518040" duration="10279000" />
+      <workItem from="1745750947928" duration="198000" />
+      <workItem from="1745775135429" duration="1445000" />
+      <workItem from="1745777741887" duration="1755000" />
+      <workItem from="1745779726919" duration="67000" />
+      <workItem from="1745780041723" duration="60000" />
+      <workItem from="1745780791201" duration="330000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial Commit: Created the POS system">
+      <option name="closed" value="true" />
+      <created>1744644014227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1744644014227</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Created the final tax file generation">
+      <option name="closed" value="true" />
+      <created>1745036104316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1745036104316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial Commit: Created the POS system" />
+    <MESSAGE value="Created the final tax file generation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created the final tax file generation" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/pos_system$item.coverage" NAME="item Coverage Results" MODIFIED="1744299309242" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pos_system$menu.coverage" NAME="menu Coverage Results" MODIFIED="1745779128669" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pos_system$pos_system.coverage" NAME="pos_system Coverage Results" MODIFIED="1744960254906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
